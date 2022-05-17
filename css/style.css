@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+.left
+{
+   
+    color: #fdd835 ;    
+    display: inline-block;
+    margin: 12px 12px;
+    position: absolute;
+    
+    left: 20px;
+    top: 6px;
+
+}
+.left img
+{
+    margin: -24px -32px;
+    width: 109px;
+    
+}
+
+.left div
+{
+    text-align: left;
+    margin: -5px -27px;
+
+}
+.middle
+{
+    
+    color: white; 
+    display: block;
+    width: 40%;
+    margin: 18px auto;
+
+
+}
+.right
+{
+
+    color: white; 
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 18px;
+
+}
+.navbar
+{
+    display: inline-block;
+}
+.navbar li
+{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 12px 12px;
+
+
+}
+.navbar li a:hover, .navbar li a.active
+{
+    color: #fdd835;
+    text-decoration: underline;
+    
+}
+.btn
+{
+    padding: 0px 7px;
+    margin: 12px 3px;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+.btn:hover
+{
+    background-color: rgb(31, 30, 30);
+    color: #fdd835;
+}
+.form h3
+{
+    color: white;
+    margin: 0px 92px;
+    padding:38px 8px;
+    
+    
+}
+.form div
+{
+    
+    color: white;
+    margin: 5px 5px;
+    padding:3px 3px;
+
+}
+.forminfo
+{
+    border: 2px solid white;
+    width: 33%;
+    height: 368px;
+    margin: -67px 21px;
+    padding: 2px 2px ;
+    border-radius: 12px;
+    background-color: #483f3fa6;
+    color: aliceblue;
+}
+#name
+{
+    margin: 42px 78px;
+    padding: 6px;
+    width: 73%;
+}
+span #Mob_no
+
+{
+    margin: 22px 22px;
+    
+
+}
+label
+{
+    height: 5px;
+    position: absolute;
+    margin: 43px 7px;
+    line-height: 0em;
+    
+}
+#mob_no
+{
+    margin: -3px 78px;
+    padding: 6px;
+    width: 73%;
+    
+
+}
+#gend
+{
+    margin: 24px 22px;
+}
+#register
+{
+    margin: 24px 84px;
+    width: 50%;
+    border: 3px solid green;
+}
+ #mail
+{
+    margin: 5px 24px ;
+    padding: 6px;
+    width: 73%;
+}
